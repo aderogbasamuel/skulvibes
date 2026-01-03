@@ -19,9 +19,9 @@ export default function Countdown({ target }: { target: Date }) {
       {Object.entries(time).map(([label, value]) => (
         <div
           key={label}
-          className="rounded-2xl bg-purple-50 p-4 shadow-sm"
+          className="rounded-2xl bg-orange-50 p-4 shadow-sm"
         >
-          <div className="text-3xl font-bold text-purple-700">
+          <div className="text-3xl font-bold text-orange-500">
             {value}
           </div>
           <div className="text-xs uppercase tracking-wide text-gray-500">
