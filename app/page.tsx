@@ -16,7 +16,7 @@ export default function Home({
       <div className="max-w-xl w-full text-center">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
           🎒 Happy Resumption,
-          <span className="block text-purple-600 mt-2">
+          <span className="block text-orange-600 mt-2">
             {name}
           </span>
         </h1>
@@ -31,9 +31,9 @@ export default function Home({
         <div className="mt-10">
           <a
             href="/create"
-            className="inline-block rounded-full bg-purple-600 px-8 py-4 text-white font-medium shadow-lg hover:bg-purple-700 transition"
+            className="inline-block rounded-full bg-gradient-to-r from-orange-400 to-orange-700 px-8 py-4 text-white font-medium shadow-lg hover:bg-purple-700 transition"
           >
-            Create your SkoolVibe →
+            Create your SkoolVibe
           </a>
         </div>
       </div>
