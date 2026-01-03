@@ -12,7 +12,7 @@ export default function ShareWhatsApp({ name }: ShareWhatsAppProps) {
   } 😎`;
 
   const handleShare = useCallback(() => {
-    const url = typeof window !== "undefined" ? window.location.href : "";
+    const url = typeof window !== "undefined" ? `https://skulvibes.vercel.app/?name=${name}` : "";
     const message = `${text} ${url}`;
     
     const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
