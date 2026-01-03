@@ -12,7 +12,7 @@ export default function Home({
   resumptionDate.setDate(resumptionDate.getDate() + 2);
 
   return (
-<main className="relative min-h-screen overflow-hidden bg-gradient-to-br from-orange-950 via-red-950 to-amber-900 text-white">
+<main className="relative min-h-screen overflow-hidden">
   {/* Subtle moving background effect – pure CSS */}
   <div className="absolute inset-0 opacity-20 pointer-events-none">
     <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_25%,rgba(255,165,0,0.4)_0%,transparent_60%)] animate-pulse-slow" />
